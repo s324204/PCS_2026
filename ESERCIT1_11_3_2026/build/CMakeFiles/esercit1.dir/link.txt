@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wshadow -Wl,--dependency-file=CMakeFiles/esercit1.dir/link.d CMakeFiles/esercit1.dir/es1.cpp.o CMakeFiles/esercit1.dir/printargs.cpp.o -o esercit1

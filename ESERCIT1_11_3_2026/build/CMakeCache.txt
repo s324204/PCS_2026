@@ -148,7 +148,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=es1
+CMAKE_PROJECT_NAME:STATIC=esercit1
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -223,6 +223,15 @@ es1_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 es1_SOURCE_DIR:STATIC=/home/pcsdocker/Data/PCS_2026/ESERCIT1_11_3_2026
+
+//Value Computed by CMake
+esercit1_BINARY_DIR:STATIC=/home/pcsdocker/Data/PCS_2026/ESERCIT1_11_3_2026/build
+
+//Value Computed by CMake
+esercit1_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+esercit1_SOURCE_DIR:STATIC=/home/pcsdocker/Data/PCS_2026/ESERCIT1_11_3_2026
 
 
 ########################
