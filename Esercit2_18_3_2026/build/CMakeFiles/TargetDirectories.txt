@@ -1,0 +1,4 @@
+/home/pcsdocker/Data/PCS_2026/Esercit2_18_3_2026/build/CMakeFiles/es2_1.dir
+/home/pcsdocker/Data/PCS_2026/Esercit2_18_3_2026/build/CMakeFiles/es2_2.dir
+/home/pcsdocker/Data/PCS_2026/Esercit2_18_3_2026/build/CMakeFiles/edit_cache.dir
+/home/pcsdocker/Data/PCS_2026/Esercit2_18_3_2026/build/CMakeFiles/rebuild_cache.dir
