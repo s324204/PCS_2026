@@ -1,0 +1,59 @@
+Un esempio di stampa sul terminale è la seguente:
+dim: 4
+Bubble: 1.9002e-07
+Selection: 1.6902e-07
+Insertion: 1.7902e-07
+Mergesort: 1.96327e-06
+Quicksort: 2.2303e-07
+Quicksort modificato: 1.7503e-07
+Sort: 4.3606e-07             <-- più lento di tutti
+
+dim: 5
+Bubble: 4.1206e-07
+Selection: 3.5905e-07
+Insertion: 3.4405e-07
+Mergesort: 2.25232e-06
+Quicksort: 3.6605e-07
+Quicksort modificato: 3.1704e-07
+Sort: 1.74225e-06             <-- più veloce solo del mergesort
+
+dim: 6
+Bubble: 6.9209e-07
+Selection: 4.5107e-07
+Insertion: 4.2706e-07
+Mergesort: 2.91041e-06
+Quicksort: 1.32619e-06
+Quicksort modificato: 4.3106e-07
+Sort: 8.0112e-07             <-- più lento di tutti
+
+dim: 7
+Bubble: 7.231e-07
+Selection: 6.0408e-07
+Insertion: 5.7608e-07
+Mergesort: 4.1756e-06
+Quicksort: 6.1209e-07
+Quicksort modificato: 5.6808e-07
+Sort: 9.7814e-07             <-- più lento di tutti
+
+dim: 8
+Bubble: 9.7314e-07
+Selection: 7.9111e-07
+Insertion: 7.111e-07
+Mergesort: 4.20159e-06
+Quicksort: 7.121e-07
+Quicksort modificato: 7.4511e-07
+Sort: 1.16516e-06             <-- più veloce solo del mergesort
+
+dim: 9
+Bubble: 1.18317e-06
+Selection: 9.6814e-07
+Insertion: 8.7313e-07
+Mergesort: 4.91469e-06
+Quicksort: 8.4312e-07
+Quicksort modificato: 8.7913e-07
+Sort: 1.68424e-06            <-- più veloce solo del mergesort
+
+La dimensione limite è: 9 (cioè al di sotto di questa, gli algoritmi quadratici -bubble, selection, insertion- sono tutti e 3 più veloci di quelli logaritmici -quick e mergesort-)
+Questo è il caso "peggiore", poiché solitamente nel mio algoritmo la dimensione limite non supera il 9.
+
+Si nota che std::sort() rimane più lento degli altri algoritmi perché funziona similmente al quick sort modificato ma ha come soglia una dimensione di circa 16. Utilizza un algoritmo chiamato introsort, che inizia con quicksort, ma se la dimensione del sotto-vettore diventa piccola (appunto, solitamente sotto i 16 elementi), smette di usare la ricorsione e utilizza l'insertion sort, come nel quicksort_modificato che abbiamo implementato.
